@@ -1,0 +1,4 @@
+/home/kgh/GITHUB/robit_QT_homework/build-HW1-Desktop-Debug/CMakeFiles/HW1.dir
+/home/kgh/GITHUB/robit_QT_homework/build-HW1-Desktop-Debug/CMakeFiles/edit_cache.dir
+/home/kgh/GITHUB/robit_QT_homework/build-HW1-Desktop-Debug/CMakeFiles/rebuild_cache.dir
+/home/kgh/GITHUB/robit_QT_homework/build-HW1-Desktop-Debug/CMakeFiles/HW1_autogen.dir
