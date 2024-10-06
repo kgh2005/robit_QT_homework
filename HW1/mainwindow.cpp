@@ -2,9 +2,9 @@
 #include "./ui_mainwindow.h"
 #include <QGraphicsScene>
 #include <QGraphicsLineItem>
-#include <QGraphicsEllipseItem>  // 원을 그리기 위한 헤더 추가
+#include <QGraphicsEllipseItem>
 #include <QPen>
-#include <cmath>  // M_PI 사용을 위한 헤더 추가
+#include <cmath>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -109,17 +109,28 @@ void MainWindow::on_ArmButton_clicked()
     drawArm(); // 선을 그리는 함수 호출
 }
 
-// RestButton 클릭 시 joint1Angle, joint2Angle, joint3Angle을 0으로 초기화
+
 void MainWindow::on_RestButton_clicked()
 {
-    ui->joint1Slider->setValue(0);  // joint1Slider 값 0으로 설정
-    ui->joint2Slider->setValue(0);  // joint2Slider 값 0으로 설정
-    ui->joint3Slider->setValue(0);  // joint3Slider 값 0으로 설정
+    // 슬라이더 초기화
+    ui->joint1Slider->setValue(0);
+    ui->joint2Slider->setValue(0);
+    ui->joint3Slider->setValue(0);
 
-    ui->joint1Angle->setText("0");  // joint1Angle QLabel 값 0으로 설정
-    ui->joint2Angle->setText("0");  // joint2Angle QLabel 값 0으로 설정
-    ui->joint3Angle->setText("0");  // joint3Angle QLabel 값 0으로 설정
+    // 각도 표시 QLabel 초기화
+    ui->joint1Angle->setText("0");
+    ui->joint2Angle->setText("0");
+    ui->joint3Angle->setText("0");
+
+    // SpinBox 값을 1로 설정
+    ui->link1SpinBox->setValue(1);
+    ui->link2SpinBox->setValue(1);
+    ui->link3SpinBox->setValue(1);
+
+
+    scene->clear();
 }
+
 
 // joint1Slider 값 변경 시 QLabel에 출력 및 Arm 그리기
 void MainWindow::on_joint1Slider_valueChanged(int value)
