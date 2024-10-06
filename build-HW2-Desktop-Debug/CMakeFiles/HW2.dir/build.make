@@ -125,6 +125,7 @@ HW2: CMakeFiles/HW2.dir/main.cpp.o
 HW2: CMakeFiles/HW2.dir/mainwindow.cpp.o
 HW2: CMakeFiles/HW2.dir/build.make
 HW2: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
+HW2: /usr/lib/x86_64-linux-gnu/libX11.so
 HW2: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 HW2: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 HW2: CMakeFiles/HW2.dir/link.txt
