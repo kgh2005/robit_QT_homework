@@ -29,6 +29,8 @@ private slots:
     void on_joint3Slider_valueChanged(int value);
     void drawArm();
 
+
+
 private:
     Ui::MainWindow *ui;
 

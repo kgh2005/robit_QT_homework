@@ -156,3 +156,5 @@ void MainWindow::on_joint3Slider_valueChanged(int value)
 void MainWindow::on_link1SpinBox_valueChanged(int arg1) {}
 void MainWindow::on_link2SpinBox_valueChanged(int arg1) {}
 void MainWindow::on_link3SpinBox_valueChanged(int arg1) {}
+
+
